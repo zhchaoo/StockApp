@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TestUrl!</string>
+    <string name="app_name">TestUrl</string>
+    
+    <string name="go">Go</string>
+    <string name="enter">Please Enter App Url</string>
+    <string name="gpjy">股票交易</string>
+    <string name="jdxw">焦点新闻</string>
+    <string name="browser">浏览</string>
+    <string name="edit">编辑</string>
+    <string name="im_input">Please Enter Message</string>
+	<string name="reg">Registering...</string>
+	<string name="regpref">Preferred</string>
+	<string name="regclick">Click to select</string>
+	<string name="regfailed">Registration failed</string>
+	<string name="voicemail">Message(s) Waiting</string>
+	<string name="menu_mute">Mute</string>
+	<string name="card_title_ended_no_codec">ERROR: Codecs Incompatible</string>
+	<string name="unknown">Unknown</string>
+	<string name="card_title_on_hold">On hold</string>
+	<string name="settings_pos3">Updating location</string>
+	<string name="auto_disabled">Auto-Answer off</string>
+	<string name="auto_enabled">Auto-Answer/Speakerphone</string>
+	<string name="menu_speaker">Speaker</string>
+	<string name="menu_bluetooth">Bluetooth (experimental)</string>
+	<string name="card_title_in_progress">Call in progress</string>
+	
+	<string name="runningFaceDetection">Please wait\u2026</string> 
+	<!--  Toast/alert after saving wallpaper 
+	  --> 
+	<string name="wallpaper">Setting wallpaper, please wait\u2026</string> 
+	<!--  Toast/alert that the image is being saved to the SD card 
+	  --> 
+	<string name="savingImage">Saving picture\u2026</string> 
+	<!--  Hint that appears when cropping an image with more than one face 
+	  --> 
+	<string name="multiface_crop_help">Tap a face to begin.</string>
+	<string name="offline">The User is offline</string>
+	<string name="waitvoip">等待客户经理接受...</string>
+	<string name="broker">客户经理</string>
+	<string name="brokerclient">离线</string>
+	<string name="wait_news">\t内容正在载入中...</string>
+	<string name="zx_info_posfix">条信息</string>
+</resources>

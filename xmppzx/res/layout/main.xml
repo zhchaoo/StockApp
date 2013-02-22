@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout  android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	   	<TextView android:id="@+id/broker"
+	   		android:layout_width="0dip"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+	    <TextView android:id="@+id/brokerClient"
+	   		android:layout_width="0dip"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout  android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	   	<Button android:id="@+id/send_file"
+	   		android:layout_width="0dip"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1"
+	   		android:text="send file"/>
+   		<Button android:id="@+id/receive_file"
+	   		android:layout_width="0dip"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1"
+	   		android:visibility="invisible"
+	   		android:text="receivefile"/>
+	    <Button android:id="@+id/clear"
+	    	android:layout_width="0dip"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1"
+	    	android:text="clear"/>
+    </LinearLayout>
+	<ListView android:id="@+id/list"
+		android:layout_width="fill_parent"
+    	android:layout_height="0dip"
+    	android:layout_weight="4"/>
+	<LinearLayout  android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1">
+	    <EditText android:id="@+id/edit"
+	    	android:layout_width="0dip"
+	    	android:layout_height="fill_parent"
+	    	android:layout_weight="1"/>
+	    <Button android:id="@+id/send"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="send"/>
+    </LinearLayout>
+</LinearLayout>

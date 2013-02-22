@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="jxt.app.microblog"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    	<service android:name=".manage.MicroblogService">
+			<intent-filter>
+				<action android:name="jxt.app.microblog.manage"></action>
+			</intent-filter>
+		</service>
+		<receiver android:name=".manage.MicroblogServiceBootReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED"></action>
+			</intent-filter>
+			<intent-filter>
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <data android:scheme="file" />
+            </intent-filter>
+		</receiver>
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET" /> 
+ 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+</manifest>
